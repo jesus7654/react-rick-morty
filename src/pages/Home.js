@@ -70,8 +70,8 @@ export class Home extends Component{
             <form onSubmit={this._submitForm} className="root">
                 <InputBase
                 className="input"
-                placeholder=  "Buscar..."
-                inputProps={{ 'aria-label': 'Buscador' }}
+                placeholder=  "Buscar personaje..."
+                inputProps={{ 'aria-label': 'Buscador de personaje' }}
                 onChange={this._handlerChange}
                 />
                 <IconButton type="submit" className="iconButton" aria-label="search">
